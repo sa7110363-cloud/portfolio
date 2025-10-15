@@ -1,0 +1,24 @@
+# 이미지 파일들
+
+이 디렉토리에는 다음 이미지 파일들이 필요합니다:
+
+## 프로필 이미지
+- profile.jpg (300x300px, 원형으로 표시됨)
+
+## 프로젝트 이미지
+- project-promy.jpg (프로미 프로젝트 썸네일)
+- project-newsbara.jpg (뉴스바라 프로젝트 썸네일)
+- project-eardream.jpg (이어드림 프로젝트 썸네일)
+- project-coupang.jpg (쿠팡 분석 프로젝트 썸네일)
+
+## 프로젝트 상세 이미지
+- project-promy-detail.jpg (프로미 프로젝트 상세 이미지)
+- project-newsbara-detail.jpg (뉴스바라 프로젝트 상세 이미지)
+- project-eardream-detail.jpg (이어드림 프로젝트 상세 이미지)
+- project-coupang-detail.jpg (쿠팡 분석 프로젝트 상세 이미지)
+
+## 이미지 권장 사항
+- 해상도: 최소 800x600px
+- 형식: JPG 또는 PNG
+- 용량: 각 파일당 500KB 이하 권장
+- 스타일: 프로젝트와 관련된 스크린샷, 와이어프레임, 또는 관련 이미지
