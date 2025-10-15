@@ -352,6 +352,13 @@ section {
     margin-bottom: 1rem;
 }
 
+.value-card .value-svg {
+    width: 2.2rem;
+    height: 2.2rem;
+    color: #FFD700;
+    margin-bottom: 1rem;
+}
+
 .value-card h4 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
@@ -623,6 +630,92 @@ section {
     border-radius: 4px;
     transition: width 1s ease;
     width: 0;
+}
+
+/* Capabilities Section */
+.capabilities {
+    background-color: #000000;
+}
+
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.capability-card {
+    background-color: #1a1a1a;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 14px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.capability-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(255, 215, 0, 0.12);
+    border-color: #FFD700;
+}
+
+.capability-card i {
+    font-size: 1.8rem;
+    color: #FFD700;
+}
+
+.capability-card h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.capability-card ul {
+    list-style: none;
+    color: #CCCCCC;
+}
+
+.capability-card li {
+    margin: 0.35rem 0;
+}
+
+/* Certifications Section */
+.certifications {
+    background-color: #0a0a0a;
+}
+
+.cert-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1a1a1a;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+}
+
+.cert-item i {
+    color: #FFD700;
+    font-size: 1.25rem;
+}
+
+.cert-name {
+    font-size: 1.05rem;
+}
+
+.cert-org {
+    color: #AAAAAA;
+    font-size: 0.95rem;
+}
+
+.cert-date {
+    color: #FFD700;
 }
 
 /* Contact Section */
